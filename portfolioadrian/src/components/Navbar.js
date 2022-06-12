@@ -15,9 +15,13 @@ export default function Navbar() {
 
         {/* menu */}
         <div className="hidden md:flex space-x-12 ">
-          <a href="https://twitter.com/HunterrNo">Twitter</a>
-          <a href="https://github.com/AdrianFred">Github</a>
-          <a href="#">
+          <a href="https://twitter.com/HunterrNo" className="hover:text-red-500">
+            Twitter
+          </a>
+          <a href="https://github.com/AdrianFred" className="hover:text-red-500">
+            Github
+          </a>
+          <a href="#" className="hover:text-red-500">
             <Link to="experience" smooth={true} duration={500}>
               My Experience
             </Link>
@@ -33,9 +37,13 @@ export default function Navbar() {
         <div
           className={!hambur ? "hidden" : "absolute top-0 left-0 h-full w-full bg-body flex flex-col justify-center items-center space-y-6 text-xl"}
         >
-          <a href="https://twitter.com/HunterrNo">Twitter</a>
-          <a href="https://github.com/AdrianFred">Github</a>
-          <a href="#">
+          <a href="https://twitter.com/HunterrNo" className="hover:text-red-500">
+            Twitter
+          </a>
+          <a href="https://github.com/AdrianFred" className="hover:text-red-500">
+            Github
+          </a>
+          <a href="#" className="hover:text-red-500">
             <Link to="experience" smooth={true} duration={500}>
               My Experience
             </Link>

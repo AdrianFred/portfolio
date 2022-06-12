@@ -10,7 +10,7 @@ const Experience = () => {
         <div className="pb-14 text-red-500 underline text-2xl text-center">
           <p>My Projects</p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 mx-auto gap-24">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 mx-auto gap-14 md:gap-24">
           {/* RainyDays */}
           <div>
             <div>
@@ -39,7 +39,9 @@ const Experience = () => {
             </div>
             <div className="max-w-[250px] pt-4">
               <p className="text-red-400 text-xl pb-2 underline">C-Science Museum</p>
-              <p className="min-h-[150px]">A semester project where we made a informatic website for a museum, to let people/kids know the time</p>
+              <p className="min-h-[150px]">
+                A semester project where we made a informatic website for a museum, to let people/kids know info about the museum
+              </p>
               <div className="flex justify-around mt-2">
                 <a href="https://github.com/AdrianFred/SemesterPr" className="">
                   <button className="w-24 h-8 bg-red-500">Github</button>
@@ -59,7 +61,7 @@ const Experience = () => {
             <div className="max-w-[250px] pt-4">
               <p className="text-red-400 text-xl pb-2 underline">Bloggy Interviews</p>
               <p className="min-h-[150px]">
-                Our exam project were we made a blog website what we learned troughtout the year, Made with HTML/CSS/JS and WP Rest API
+                Our exam project were we made a blog website to show off what we learned the 1st year, Made with HTML/CSS/JS and WP Rest API
               </p>
               <div className="flex justify-around mt-2">
                 <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-AdrianFred">
